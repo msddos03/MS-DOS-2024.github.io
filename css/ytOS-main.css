@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	//background-image: url(../images/background.jpg);
+	background-image: url(../images/background-introneals.jpg);
+	//background-repeat: repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	font-size: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#titlebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 23px;
+	width: 100%;
+	background: #cfcfcf;
+	display: inline;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	border-bottom: 2px solid black;
+	z-index: 5;
+	min-width: 500px;
+}
+#titlebar table td {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+#desktop {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+#wallpaper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 481px;
+	height: 225px;
+	margin-left: -240px;
+	margin-top: -112px;
+	z-index: -1;
+	visibility: hidden;	//for neals art
+}
+body, td, th {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000;
+}
+#clockbox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+.appwin {
+	margin: 3px;
+}
+body, html {
+	min-width: 500px;
+	overflow: hidden;
+}
+.header {
+	font-size: 24px;
+	font-weight: bold;
+}
+.subheader {
+	font-size: 16px;
+	font-weight: bold;
+}
+.regular {
+	font-size: 10px;
+}
+.desktopicon {
+	color: #fff;
+}
+.desktopicon a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+.desktopicon a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+.desktopicon a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.desktopicon a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #000;
+}
+#sm {
+	color: #000;
+}
+#loadscreen{
+    background-image: url(../images/os24_boot.gif);
+	background-size: 100%;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
